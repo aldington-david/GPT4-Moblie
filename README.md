@@ -10,6 +10,8 @@ If you have an objection to copyright, please submit an issue。
 
 这个油猴脚本用于修改 OpenAI 聊天室中使用的语言模型，将默认的语言模型切换为" GPT-4 Mobile"。
 
+具体的分析还可以阅读本项目的 code-review 和 compare ，可以进一步了解有关GPT版本的一些事情。
+
 ## 安装
 
 1. 首先，你需要安装一个支持 UserScript 的浏览器扩展，例如 Tampermonkey。
@@ -32,12 +34,16 @@ If you have an objection to copyright, please submit an issue。
 
 ## 版权
 
-该油猴脚本原版出处为Reddit用户 https://www.reddit.com/user/NijikaMyWaifu/ 的帖子 https://www.reddit.com/r/saraba2nd/comments/13mbiw1 标题为 “一个油猴脚本，在 ChatGPT 网页版使用 GPT-4 Mobile 模型”
+该油猴脚本原版出处为Reddit用户 https://www.reddit.com/user/NijikaMyWaifu/ 的帖子 https://www.reddit.com/r/saraba2nd/comments/13mbiw1 标题为 “一个油猴脚本，在 ChatGPT 网页版使用 GPT-4 Mobile 模型”。
 
-OpenAI相关为 https://openai.com/ 网站控制者所有
+OpenAI相关为 https://openai.com/ 网站控制者所有。
 
-油猴相关为 https://greasyfork.org/ 网站控制者所有
+油猴相关为 https://greasyfork.org/ 网站控制者所有。
 
 如果你对版权有异议，请提交issue。
 
 If you have an objection to copyright, please submit an issue。
+
+## 版本
+
+在 compare.md 中，可以注意到截至2023-05-26 HKT，GPT官方在GPT4-Mobile、GPT4-Browser两个环境下，不使用联网模式是不能认知到自己是GPT4模型的，而GPT3.5和GPT4以及进行联网的GPT4-Browser没有这个问题，可以认知到自己的模型版本
