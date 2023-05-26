@@ -1,6 +1,6 @@
 # GPT4-Moblie
 
-原作者是NijikaMyWaifu。发布在reddit的一个油猴脚本，在 ChatGPT 网页版使用 GPT-4 Mobile 模型，从而实现不限制GPT4用量。
+原作者是NijikaMyWaifu。发布在reddit的一个油猴脚本，在 ChatGPT 网页版使用 GPT-4 Mobile 模型，从而实现在PC上不限制GPT4-Mobile的模型用量。
 
 如果你对版权有异议，请提交issue。
 
