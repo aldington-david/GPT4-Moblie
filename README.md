@@ -12,11 +12,21 @@ If you have an objection to copyright, please submit an issue。
 
 具体的分析还可以阅读本项目的 code-review 和 compare ，可以进一步了解有关GPT版本的一些事情。
 
+## 要求和限制
+
+1. 你可以正常访问OPENAI相关的网站，尤其是 `chat.openai.com` 。[推荐一个能通OPENAI和ChatGPT官网的VPS](https://my.frantech.ca/aff.php?aff=4329)。
+2. 同时你要能在浏览器直接访问这个域名的网站，而不是其他需要替换域名反向代理等，除非你会魔改。
+3. 建议使用Chrome浏览器、或者EDGE浏览器等Chrome的异父异母的亲兄弟。
+4. 一个浏览器扩展，我建议是 Tampermonkey ，建议去谷歌浏览器扩展应用商店下。
+5. 中英文基本的阅读能力。
+6. 一个OPENAI账号，且开通了ChatGPT Plus订阅，不然你访问不了GPT4-Mobile模型。
+
 ## 安装
 
 1. 首先，你需要安装一个支持 UserScript 的浏览器扩展，例如 Tampermonkey。
 2. 在你的 UserScript 扩展中，创建一个新的脚本并将这个脚本的内容粘贴进去。
-3. 保存脚本，然后导航到 `chat.openai.com`。
+3. 保存脚本，然后去 `chat.openai.com`打开使用即可。
+4. 需要开启GPT-4 Mobile 时勾选网页正下方的按钮。如果不需要开启，则可以取消勾选或者在插件处停用该脚本。
 
 ## 使用
 
@@ -24,13 +34,16 @@ If you have an objection to copyright, please submit an issue。
 
 ## 功能
 
-- 可以切换语言模型为 "GPT-4 Mobile"。
+- 可以切换语言模型为 "GPT-4 Mobile"（会覆盖其他选择，包括网页上的GPT3.5和GPT4）。
 - 复选框的状态会被保存，方便下次访问时使用。
 
 ## 注意事项
 
 - 这个脚本可能不会与 OpenAI 的所有更新保持兼容。
-- 使用此脚本时需要注意，因为它会修改默认的语言模型。
+- 使用此脚本时需要注意，因为它会修改默认的语言模型，如果你勾选了那个按钮的话。
+- 你需要本身就能在对应浏览器访问ChatGPT4（网络、浏览器、PLUS订阅）
+- 如果你在无痕模式使用则需要注意是否在扩展插件设置中启用了无痕的支持。
+- 不得用于违法违规行为，后果自行承担，和本人无关。
 
 ## 版权
 
