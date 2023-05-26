@@ -2,6 +2,10 @@
 
 原作者是NijikaMyWaifu。发布在reddit的一个油猴脚本，在 ChatGPT 网页版使用 GPT-4 Mobile 模型，从而实现不限制GPT4用量。
 
+如果你对版权有异议，请提交issue。
+
+If you have an objection to copyright, please submit an issue。
+
 # Use GPT-4 Mobile UserScript
 
 这个油猴脚本用于修改 OpenAI 聊天室中使用的语言模型，将默认的语言模型切换为" GPT-4 Mobile"。
@@ -33,3 +37,7 @@
 OpenAI相关为 https://openai.com/ 网站控制者所有
 
 油猴相关为 https://greasyfork.org/ 网站控制者所有
+
+如果你对版权有异议，请提交issue。
+
+If you have an objection to copyright, please submit an issue。
